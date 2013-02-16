@@ -1,0 +1,10 @@
+
+
+<%= form_tag('/blogs', :method => "post", :id => "blog_form") do %>
+
+          <span>Title</span><%= text_field_tag(:title)%><br />
+          <%= text_area_tag(:body)%><br />
+
+    <%= submit_tag("submit", :id => "submit_button", :class => "") %>
+
+<% end %>
