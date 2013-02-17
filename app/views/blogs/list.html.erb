@@ -1,6 +1,6 @@
 <a href="/blogs/edit"><button type="button" >New</button></a> <br/>
-<% @latest_blogs.each do |blog|%>
+<% @latest_blogs.each do |each_blog|%>
     <list>
-     <span>test</span> <a href="#"><%= blog.title%><br /></a>
+     <span>test</span> <a href="/blogs/<%= each_blog.id%>/view"> <%= each_blog.title%><br /></a>
     </list>
 <% end %>
