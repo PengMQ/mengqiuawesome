@@ -3535,3 +3535,946 @@ Served asset /home.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-16 20:20:31 +0800
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-17 09:54:36 +0800
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 199ms (Views: 198.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 09:54:37 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 09:54:37 +0800
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 09:54:37 +0800
+Served asset /blogs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 09:54:37 +0800
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 09:54:37 +0800
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 09:54:37 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 09:54:37 +0800
+Served asset /blogs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 09:54:37 +0800
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 09:54:37 +0800
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2013-02-17 09:54:44 +0800
+
+ActionController::RoutingError (No route matches [GET] "/blogs"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.3) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.3) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/twer/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/blogs/create" for 127.0.0.1 at 2013-02-17 09:54:49 +0800
+
+ActionController::RoutingError (No route matches [GET] "/blogs/create"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.3) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.3) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/twer/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/blogs/create" for 127.0.0.1 at 2013-02-17 09:55:01 +0800
+
+ActionController::RoutingError (No route matches [GET] "/blogs/create"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.3) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.3) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/twer/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/blogs/list" for 127.0.0.1 at 2013-02-17 09:55:09 +0800
+Processing by BlogsController#list as HTML
+  [1m[36mBlog Load (10.3ms)[0m  [1mSELECT "blogs".* FROM "blogs" ORDER BY created_at DESC[0m
+  Rendered blogs/list.html.erb within layouts/application (34.7ms)
+Completed 200 OK in 156ms (Views: 63.8ms | ActiveRecord: 24.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 09:55:09 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 09:55:09 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 09:55:09 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 09:55:09 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:09 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:09 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:09 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:09 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:09 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/edit" for 127.0.0.1 at 2013-02-17 09:55:30 +0800
+Processing by BlogsController#edit as HTML
+  Rendered blogs/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 09:55:30 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 09:55:30 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 09:55:30 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 09:55:30 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:30 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:30 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:30 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:30 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:30 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/blogs" for 127.0.0.1 at 2013-02-17 09:55:52 +0800
+Processing by BlogsController#submit_blog as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v7QFg6AqiD/xPONS+zUb1ZszkE73DFDIg6BRglESppM=", "title"=>"steve", "body"=>"steve is a php dev", "commit"=>"submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (86.7ms)[0m  [1mINSERT INTO "blogs" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "steve is a php dev"], ["created_at", Sun, 17 Feb 2013 01:55:52 UTC +00:00], ["title", "steve"], ["updated_at", Sun, 17 Feb 2013 01:55:52 UTC +00:00]]
+  [1m[35m (2.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/blogs/list
+Completed 302 Found in 105ms (ActiveRecord: 89.3ms)
+
+
+Started GET "/blogs/list" for 127.0.0.1 at 2013-02-17 09:55:52 +0800
+Processing by BlogsController#list as HTML
+  [1m[36mBlog Load (0.3ms)[0m  [1mSELECT "blogs".* FROM "blogs" ORDER BY created_at DESC[0m
+  Rendered blogs/list.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 09:55:52 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 09:55:52 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 09:55:52 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 09:55:52 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:52 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:52 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:52 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:52 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 09:55:52 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2013-02-17 10:00:38 +0800
+
+ActionController::RoutingError (No route matches [GET] "/blogs"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.3) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.3) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/twer/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2013-02-17 10:00:58 +0800
+
+ActionController::RoutingError (No route matches [GET] "/list"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.3) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.3) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/twer/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/blogs/list" for 127.0.0.1 at 2013-02-17 10:01:05 +0800
+Processing by BlogsController#list as HTML
+  [1m[35mBlog Load (0.3ms)[0m  SELECT "blogs".* FROM "blogs" ORDER BY created_at DESC
+  Rendered blogs/list.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 10:01:05 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 10:01:05 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 10:01:05 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 10:01:05 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 10:01:05 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 10:01:05 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 10:01:05 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 10:01:05 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 10:01:05 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-17 10:06:59 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 10:06:59 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 10:06:59 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 10:06:59 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 10:06:59 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 10:06:59 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 10:06:59 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 10:06:59 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 10:06:59 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 10:06:59 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/list" for 127.0.0.1 at 2013-02-17 10:12:57 +0800
+Processing by BlogsController#list as HTML
+  [1m[36mBlog Load (0.3ms)[0m  [1mSELECT "blogs".* FROM "blogs" ORDER BY created_at DESC[0m
+  Rendered blogs/list.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 10:12:57 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 10:12:57 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 10:12:57 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 10:12:57 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 10:12:57 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 10:12:57 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 10:12:57 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 10:12:57 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 10:12:57 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/list" for 127.0.0.1 at 2013-02-17 15:15:54 +0800
+Processing by BlogsController#list as HTML
+  [1m[35mBlog Load (4.6ms)[0m  SELECT "blogs".* FROM "blogs" ORDER BY created_at DESC
+  Rendered blogs/list.html.erb within layouts/application (247.1ms)
+Completed 200 OK in 535ms (Views: 500.3ms | ActiveRecord: 14.7ms)
+
+
+Started GET "/blogs/view" for 127.0.0.1 at 2013-02-17 15:16:08 +0800
+Processing by BlogsController#view as HTML
+  Rendered blogs/view.html.erb within layouts/application (1691.4ms)
+Completed 500 Internal Server Error in 1693ms
+
+ActionView::Template::Error (undefined local variable or method `this_blog' for #<#<Class:0x007ff03dcdca50>:0x007ff03ddc73c0>):
+    2: 
+    3: <h3><%= @current_url%></h3>
+    4: 
+    5: <h3><%= this_blog.title%></h3>
+    6: <div><%= this_blog.body%></div>
+  app/views/blogs/view.html.erb:5:in `_app_views_blogs_view_html_erb___2773923699769294165_70334903365680'
+  app/controllers/blogs_controller.rb:17:in `view'
+
+
+  Rendered /Users/twer/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (24.3ms)
+  Rendered /Users/twer/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/twer/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (49.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 15:16:10 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 15:16:10 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 15:16:10 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 15:16:10 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 15:16:10 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 15:16:10 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 15:16:10 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 15:16:10 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 15:16:10 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/view" for 127.0.0.1 at 2013-02-17 15:16:43 +0800
+Processing by BlogsController#view as HTML
+  Rendered blogs/view.html.erb within layouts/application (57.1ms)
+Completed 500 Internal Server Error in 59ms
+
+ActionView::Template::Error (undefined local variable or method `this_blog' for #<#<Class:0x007ff03dcdca50>:0x007ff03dc057a8>):
+    2: 
+    3: <h3><%= @current_url%></h3>
+    4: 
+    5: <!--<h3><%= this_blog.title%></h3>-->
+    6: <!--<div><%= this_blog.body%></div>-->
+  app/views/blogs/view.html.erb:5:in `_app_views_blogs_view_html_erb___2773923699769294165_70334902443100'
+  app/controllers/blogs_controller.rb:17:in `view'
+
+
+  Rendered /Users/twer/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.6ms)
+  Rendered /Users/twer/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/twer/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.6ms)
+
+
+Started GET "/blogs/view" for 127.0.0.1 at 2013-02-17 15:18:41 +0800
+Processing by BlogsController#view as HTML
+  Rendered blogs/view.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 15:18:41 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 15:18:41 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 15:18:41 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 15:18:41 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 15:18:41 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 15:18:41 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 15:18:41 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 15:18:41 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 15:18:41 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/1/view" for 127.0.0.1 at 2013-02-17 15:21:24 +0800
+
+ActionController::RoutingError (No route matches [GET] "/blogs/1/view"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.3) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.3) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/twer/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/blogs/1/view" for 127.0.0.1 at 2013-02-17 15:21:56 +0800
+Processing by BlogsController#view as HTML
+  Parameters: {"blog_id"=>"1"}
+  Rendered blogs/view.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 15:21:56 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 15:21:56 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 15:21:56 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 15:21:56 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 15:21:56 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 15:21:56 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 15:21:56 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 15:21:56 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 15:21:56 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/1/view" for 127.0.0.1 at 2013-02-17 15:30:52 +0800
+Processing by BlogsController#view as HTML
+  Parameters: {"blog_id"=>"1"}
+  [1m[36mBlog Load (0.2ms)[0m  [1mSELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered blogs/view.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 5.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 15:30:52 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 15:30:52 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 15:30:52 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 15:30:52 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 15:30:52 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 15:30:52 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 15:30:52 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 15:30:52 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 15:30:52 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/2/view" for 127.0.0.1 at 2013-02-17 15:31:47 +0800
+Processing by BlogsController#view as HTML
+  Parameters: {"blog_id"=>"2"}
+  [1m[35mBlog Load (0.1ms)[0m  SELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered blogs/view.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 15:31:47 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 15:31:47 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 15:31:47 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 15:31:47 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 15:31:47 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 15:31:47 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 15:31:47 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 15:31:47 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 15:31:47 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/14/view" for 127.0.0.1 at 2013-02-17 15:31:55 +0800
+Processing by BlogsController#view as HTML
+  Parameters: {"blog_id"=>"14"}
+  [1m[36mBlog Load (0.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  Rendered blogs/view.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 15:31:55 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 15:31:55 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 15:31:55 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 15:31:55 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 15:31:55 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 15:31:55 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 15:31:55 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 15:31:55 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 15:31:55 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/10/view" for 127.0.0.1 at 2013-02-17 15:32:01 +0800
+Processing by BlogsController#view as HTML
+  Parameters: {"blog_id"=>"10"}
+  [1m[35mBlog Load (0.1ms)[0m  SELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered blogs/view.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 15:32:01 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 15:32:01 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 15:32:01 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 15:32:01 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 15:32:01 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 15:32:01 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 15:32:01 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 15:32:01 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 15:32:01 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/blogs/10/view" for 127.0.0.1 at 2013-02-17 15:34:39 +0800
+Processing by BlogsController#view as HTML
+  Parameters: {"blog_id"=>"10"}
+  [1m[36mBlog Load (0.1ms)[0m  [1mSELECT "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered blogs/view.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 5.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 15:34:39 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 127.0.0.1 at 2013-02-17 15:34:39 +0800
+Served asset /blogs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-17 15:34:39 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 15:34:39 +0800
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 15:34:39 +0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 15:34:39 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blogs.js?body=1" for 127.0.0.1 at 2013-02-17 15:34:39 +0800
+Served asset /blogs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-17 15:34:39 +0800
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 15:34:39 +0800
+Served asset /application.js - 304 Not Modified (0ms)
