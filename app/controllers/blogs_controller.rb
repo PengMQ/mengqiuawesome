@@ -4,8 +4,8 @@ class BlogsController < ApplicationController
     @latest_blogs = Blog.order("created_at DESC")
     render :list
   end
- def edit
-   render :edit
+ def new
+   render :new
  end
 
   def submit_blog

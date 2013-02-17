@@ -30,7 +30,7 @@ class BlogsControllerTest < ActionController::TestCase
   end
 
   test "should get edit" do
-    get :edit, id: @current_blog
+    get :create, id: @current_blog
     assert_response :success
   end
 
